@@ -32,6 +32,9 @@ FROM marketing_data AS m INNER JOIN website_revenue as W
 WHERE m.campaign_id = 5
 GROUP BY State
 
+--5
+
+
 
 --6
 SELECT DATENAME(weekday, date) AS Day, SUM(conversions)
